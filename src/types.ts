@@ -1,10 +1,12 @@
+import { type } from 'os';
+
 export type TUsers = {
     id: string,
     name: string,
     email: string,
     password: string,
     createdAt: string,
-  };
+  }
   
   export type TProducts = {
     id: string,
@@ -12,5 +14,4 @@ export type TUsers = {
     price: number,
     description: string,
     imageUrl: string,
-  };
-  
+  }
